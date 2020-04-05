@@ -1,0 +1,105 @@
+/*Global styles*/
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  background: url(images/desert_golden_sun.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+body {
+  width: 60%;
+  margin: auto;
+}
+#intro {
+  /* background-color: blue; */
+}
+
+.head {
+  /* background-color: lightgreen; */
+  position: fixed;
+  margin-top: 10vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/* Intro styles -------------------------------------------------*/
+/* #intro {
+
+  align-items: center;
+  justify-content: center;
+} */
+h2 {
+  font-weight: 600;
+  color: white;
+  font-size: 5em;
+}
+p {
+  color: white;
+  font-weight: 300;
+  font-size: 1.6em;
+}
+.head {}
+.title {
+  /* background-color: red; */
+  width: 80%;
+  margin: auto;
+
+}
+.definition {
+  /* background-color: purple; */
+  /* text-align: center; */
+  width: 80%;
+  margin: auto;
+}
+/* mid section -----------------------------------------------------*/
+.hero {
+  /* background-color: pink; */
+  position: fixed;
+  margin-top: 35vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+h4 {
+  color: white;
+  font-size: 2.5em;
+}
+a {
+  text-decoration: none;
+}
+.topic {
+  display: flex;
+  justify-content: flex-start;
+}
+.topic_1 {
+  margin-right: 5em;
+}
+/* footer styles ----------------------------------------------------*/
+footer {
+  /* margin-top: 40vh; */
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top:80vh;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+.foot-links {
+  width: 35px;
+  width: 35px;
+  margin-right: 1em;
+  filter: invert(100%);
+}
