@@ -8,6 +8,7 @@
 }
 html {
   background: url(images/desert_golden_sun.jpg) no-repeat center center fixed;
+  /* background: darkgray; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,10 +56,11 @@ p {
 
 }
 .definition {
-  /* background-color: purple; */
+  background-color: rgba(255, 255, 255, 0.2);
   /* text-align: center; */
   width: 80%;
   margin: auto;
+  border-radius: 0.2em;
 }
 /* mid section -----------------------------------------------------*/
 .hero {
@@ -67,22 +69,49 @@ p {
   margin-top: 35vh;
   left: 50%;
   transform: translate(-50%, 0);
+  width: 50%;
+  display: block;
 }
 
 h4 {
+  display: block;
   color: white;
   font-size: 2.5em;
+  z-index: 20;
+  text-transform: uppercase;
 }
 a {
   text-decoration: none;
 }
-.topic {
+.headings {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  /* background-color: lightblue; */
 }
-.topic_1 {
-  margin-right: 5em;
+.topic{
+  border: none;
+  color: white;
 }
+.topic.active,
+.topic:hover{
+  border: none;
+  color: white;
+  border-bottom: 0.2em solid white;
+}
+
+.para-content{
+  display: none;
+}
+.para-content.active{
+  display:block;
+}
+
+.para p {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 1em;
+  border-radius: 0.2em;
+}
+
 /* footer styles ----------------------------------------------------*/
 footer {
   /* margin-top: 40vh; */
